@@ -1,5 +1,5 @@
 <?php
 
-include_once("3 Spanzuratoare.html");
+include_once("index.html");
 
 ?>
