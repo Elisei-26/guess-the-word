@@ -9,7 +9,7 @@ function pickWord() { //the function is called when the start button is pressed
         let leng = hidenWord.length;
         for (let i = 1; i < leng - 1; ++i) {
             hidenWord = setCharAt(hidenWord, i, '_');
-        } // choose a word at random from the word list and exchange the letters inside the word with the character "_"
+        } // choose random word from the word list and exchange the letters inside the word with the character "_"
         let wordSplited = word.split("");
         let firstLetter = wordSplited[0];
         let lastLetter = wordSplited[leng - 1];
